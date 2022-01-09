@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+    height: 80px;
+}
+
+#header-logo-text {
+    font-size: 24px;    
+}
+
+#navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    text-align: right;
+
+  }
+
+#navbar-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+#navbar-links a:hover {
+    color: #00FFFF;
+}
+
+#welcomediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 180px;
+    height: auto;
+}
+
+#welcome-image {
+    height: 250px;
+}
+
+#welcome-1 h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#welcome-1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#welcome-1 {
+    max-width: 600px;
+    min-height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#welcome-1 a {
+    text-align: bottom;
+    margin-bottom: 0%;
+    max-width: fit-content;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #3882F6;
+    background-color: #E5E7EB;
+  }
+
+
+.infobox {
+    background-color: #fff;
+    color: #1F2937
+}
+
+.main {
+    margin: 100px 0px;
+}
+
+#random-information h1{
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info-container {
+    min-height: 100%;
+    margin: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.infobox img {
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+    height: 150px;
+    width: 150px;
+}
+
+.infobox p {
+    max-width: 150px;
+    text-align: center;
+}
+
+#inspiring-quote {
+    background-color: #E5E7EB;
+}
+
+#inspiring-quote p {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 150px 50px 0px 50px;
+}
+
+#inspiring-quote h3 {
+    text-align: right;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 0px 50px 150px 50px;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 100px 45px 100px 45px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+#cta-left {
+    background-color: black;
+    min-width: 75%;
+    max-height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#cta-right {
+    justify-content: left;
+    max-width: 25%;
+    max-height: 250px;
+}
+
+#cta-right .button {
+    border: 3px solid #FFF;
+}
+
+#footer {
+    padding: 25px 25px 25px 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#footer a:hover {
+    color: #00FFFF;
+}

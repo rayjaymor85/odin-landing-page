@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-.uppersection {
+.header {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
@@ -11,13 +11,25 @@ body {
 
 }
 
+
 #navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 180px;
+    padding: 0 2%;
     height: 80px;
+}
+
+@media (max-width: 1000px) {
+    #navbar {
+        flex-direction: column;
+        display: block;
+        justify-content: space-between;
+        align-items: left;
+        padding: 0 2%;
+
+    }
 }
 
 #header-logo-text {
@@ -33,13 +45,13 @@ body {
 
   }
 
-#navbar-links a {
+a {
     text-decoration: none;
     color: #E5E7EB;
     padding: 10px;
 }
 
-#navbar-links a:hover {
+a:hover {
     color: #00FFFF;
 }
 
@@ -47,13 +59,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 70px 180px;
+    padding: 5% 5%;
     height: auto;
 }
 
+@media (min-width: 1000px) {
+    #welcomediv {
+        flex-direction: row;
+        align-items: center;
+        padding: 70px 180px;
+    }
+}
+
 #welcome-image {
-    height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 #welcome-1 h1 {
@@ -80,6 +100,11 @@ body {
     text-align: bottom;
     margin-bottom: 0%;
     max-width: fit-content;
+}
+
+#welcome-2 {
+    width: 400px;
+    height: auto;
 }
 
 .button {
@@ -208,7 +233,9 @@ body {
     font-weight: bold;
 }
 
-#footer {
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
     padding: 25px 25px 25px 25px;
     justify-content: center;
     text-align: center;
